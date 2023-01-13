@@ -1,0 +1,3 @@
+REGOLE ESAME:
+* se funzioni ausiliarie, implementare funzioni ricorsive e semplici
+* spesso l'es per la lode è sugli alberi
