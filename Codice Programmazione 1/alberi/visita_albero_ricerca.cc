@@ -13,7 +13,7 @@ typedef node *albero;
 
 /*
 Questa è la versione ricorsiva dello stampo dei valori in ordine crescente
-di un albero binario di ricerca.
+di un albero di ricerica binaria.
 La versione iterativa è molto più complessa
 */
 void visit(albero t)
