@@ -66,8 +66,7 @@ bool dequeue()
     }
     else
     {
-        queueList firstNode;
-        firstNode = Q.head;
+        queueList firstNode = Q.head;
         Q.head = Q.head->next;
         delete firstNode;
         isDequeued = true;

@@ -4,20 +4,18 @@ using namespace std;
 
 bool isPalindrome(int *arr, int end, int start = 0)
 {
-    if (start >= end)
-    {
-        return true;
-    }
     if (arr[start] != arr[end])
     {
         return false;
     }
-    else
+    if (start >= end)
     {
-        end--;
-        start++;
-        return isPalindrome(arr, end, start);
+        return true;
     }
+
+    start++;
+    end--;
+    return isPalindrome(arr, end, start);
 }
 
 int main()
